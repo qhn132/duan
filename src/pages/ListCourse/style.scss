@@ -1,0 +1,75 @@
+.list-course {
+  width: 80%;
+  margin-left: 10%;
+  display: inline-block;
+  .course-item {
+    box-shadow: 0px 5px rgb(192, 192, 192);
+    display: flex;
+    height: 520px;
+    width: 100%;
+    .left {
+      width: 33%;
+      text-align: center;
+      align-items: center;
+    }
+    .right {
+      width: 33%;
+      .box {
+        background: #f2f2f2;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        li{
+            list-style: none;
+        }
+      }
+    }
+    .content {
+      padding: 2%;
+      width: 33%;
+      h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+      }
+      .price {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+      }
+      .btn-detail {
+        margin-top: 50px;
+        width: 286px;
+        height: 47px;
+        background: #398eab;
+        border-radius: 32px;
+        color: white;
+        font-weight: bolder;
+      }
+      .description {
+        .head {
+          display: flex;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #999999;
+        }
+        .rate {
+          margin-left: 50px;
+          margin-bottom: 10px;
+        }
+        .foot {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}

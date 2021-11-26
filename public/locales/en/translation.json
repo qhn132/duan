@@ -1,0 +1,16 @@
+{
+  "table_base.input.search.placeholder": "Search",
+  "common.button.add": "Add",
+  "common.button.cancel": "Cancel",
+  "login.form.input.email.title": "Email",
+  "login.form.input.password.title": "Password",
+  "login.form.input.email.required": "Email is required",
+  "login.form.input.password.required": "Password is required",
+  "login.form.input.email.format.invalid": "Email format invalid.",
+  "login.form.input.email.placeholder": "example.@gmail.com",
+  "login.form.input.password.placeholder": "Enter password",
+  "login.form.button.login": "Login",
+  "menu.home": "Home",
+  "menu.communicate": "Communicate",
+  "footer.copyright": "© 2021 Elearning. All rights reserved. {{name}}"
+}

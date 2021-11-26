@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #398eab;
+  padding-left: 16px;
+  padding-right: 16px;
+  .logo {
+    width: 182px;
+    margin-left: 140px;
+    margin-right: 570px;
+    cursor: pointer;
+  }
+  .ant-menu {
+    background-color: #398eab;
+    width: calc(100% - 382px);
+    border-bottom: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    user-select: none;
+    margin-left: 140px;
+  }
+  .auth {
+    display: flex;
+    background-color: #398eab;
+    width: 200px;
+    margin-right: 160px;
+    .sign-up {
+      background: #398eab;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      width: 140px;
+      height: 48px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    .sign-in {
+      background: #398eab;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      width: 140px;
+      height: 48px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .ant-menu-horizontal > .ant-menu-item::after,
+  .ant-menu-horizontal > .ant-menu-submenu::after {
+    border-bottom: 0 !important;
+  }
+}

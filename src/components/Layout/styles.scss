@@ -1,0 +1,26 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+  height: auto;
+  .ant-layout-footer {
+    height: 40px;
+    background: #f9f9f9;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .ant-layout-content {
+    background: #ffffff;
+  }
+  .ant-breadcrumb {
+    padding: 17px 16px;
+    box-shadow: inset 0px -1px 0px rgba(144, 147, 153, 0.2);
+    background: #f9f9f9;
+  }
+  .ant-layout-footer {
+    background: #f9f9f9;
+    box-shadow: inset 0px 1px 0px rgba(144, 147, 153, 0.1);
+  }
+}

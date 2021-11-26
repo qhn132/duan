@@ -1,0 +1,29 @@
+.my-class{
+    padding: 30px;
+    .class-name{
+        color: #18bcf3;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .btn-cancel{
+        background-color: red;
+        width: 150px;
+        color: white;
+    }
+    .btn-payment{
+        background-color: #18bcf3;
+        color: white;
+        width: 150px;
+    }
+    .btn-join{
+        background-color: green;
+        color: white;
+        width: 150px;
+    }
+    .status-true{
+        color: green;
+    }
+    .status-false{
+        color: red;
+    }
+}

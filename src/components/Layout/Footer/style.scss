@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  height: 220px;
+  background: #398eab;
+  display: flex;
+  .left {
+    width: 50%;
+    .title {
+      margin-top: 20px;
+      margin-left: 20px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 37px;
+      /* identical to box height */
+      color: #ffffff;
+    }
+    .sub-title ul {
+      display: block;
+      list-style-type: none;
+    }
+    .sub-title ul li {
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ffffff;
+    }
+  }
+  .right {
+    width: 50%;
+    .copyright {
+      margin-top: 50px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+    ul {
+      display: block;
+      list-style-type: none;
+    }
+    ul li {
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ffffff;
+    }
+  }
+}
